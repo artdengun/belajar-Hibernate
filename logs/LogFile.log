@@ -1,0 +1,386 @@
+2020-05-22 13:39:03:643 org.hibernate.cfg.Configuration:194 DEBUG - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-05-22 13:39:03:662 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration boolean -> org.hibernate.type.BooleanType@2e58ecb4
+2020-05-22 13:39:03:663 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration boolean -> org.hibernate.type.BooleanType@2e58ecb4
+2020-05-22 13:39:03:668 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@2e58ecb4
+2020-05-22 13:39:03:670 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@213a9a1d
+2020-05-22 13:39:03:673 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration true_false -> org.hibernate.type.TrueFalseType@7e74dd0f
+2020-05-22 13:39:03:675 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration yes_no -> org.hibernate.type.YesNoType@1785ee67
+2020-05-22 13:39:03:677 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration byte -> org.hibernate.type.ByteType@58049449
+2020-05-22 13:39:03:678 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration byte -> org.hibernate.type.ByteType@58049449
+2020-05-22 13:39:03:678 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@58049449
+2020-05-22 13:39:03:680 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration character -> org.hibernate.type.CharacterType@20bf7430
+2020-05-22 13:39:03:681 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration char -> org.hibernate.type.CharacterType@20bf7430
+2020-05-22 13:39:03:681 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@20bf7430
+2020-05-22 13:39:03:683 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration short -> org.hibernate.type.ShortType@6926f799
+2020-05-22 13:39:03:684 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration short -> org.hibernate.type.ShortType@6926f799
+2020-05-22 13:39:03:685 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@6926f799
+2020-05-22 13:39:03:701 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration integer -> org.hibernate.type.IntegerType@ad892a2
+2020-05-22 13:39:03:703 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration int -> org.hibernate.type.IntegerType@ad892a2
+2020-05-22 13:39:03:706 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@ad892a2
+2020-05-22 13:39:03:712 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration long -> org.hibernate.type.LongType@493e7db2
+2020-05-22 13:39:03:713 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration long -> org.hibernate.type.LongType@493e7db2
+2020-05-22 13:39:03:713 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Long -> org.hibernate.type.LongType@493e7db2
+2020-05-22 13:39:03:715 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration float -> org.hibernate.type.FloatType@32d0358e
+2020-05-22 13:39:03:716 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration float -> org.hibernate.type.FloatType@32d0358e
+2020-05-22 13:39:03:716 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@32d0358e
+2020-05-22 13:39:03:719 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration double -> org.hibernate.type.DoubleType@4060da91
+2020-05-22 13:39:03:727 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration double -> org.hibernate.type.DoubleType@4060da91
+2020-05-22 13:39:03:729 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@4060da91
+2020-05-22 13:39:03:733 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@186b86cd
+2020-05-22 13:39:03:735 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@186b86cd
+2020-05-22 13:39:03:742 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@5abf33e8
+2020-05-22 13:39:03:743 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@5abf33e8
+2020-05-22 13:39:03:744 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration string -> org.hibernate.type.StringType@553b13a5
+2020-05-22 13:39:03:745 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.String -> org.hibernate.type.StringType@553b13a5
+2020-05-22 13:39:03:746 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3095d5a0
+2020-05-22 13:39:03:748 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@402a301e
+2020-05-22 13:39:03:750 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration url -> org.hibernate.type.UrlType@162d9b08
+2020-05-22 13:39:03:751 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.net.URL -> org.hibernate.type.UrlType@162d9b08
+2020-05-22 13:39:03:763 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration date -> org.hibernate.type.DateType@169e35de
+2020-05-22 13:39:03:763 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.Date -> org.hibernate.type.DateType@169e35de
+2020-05-22 13:39:03:765 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration time -> org.hibernate.type.TimeType@4db17619
+2020-05-22 13:39:03:765 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4db17619
+2020-05-22 13:39:03:767 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration timestamp -> org.hibernate.type.TimestampType@3d43de08
+2020-05-22 13:39:03:768 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3d43de08
+2020-05-22 13:39:03:769 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3d43de08
+2020-05-22 13:39:03:772 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@5b6ee55a
+2020-05-22 13:39:03:774 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration calendar -> org.hibernate.type.CalendarType@2a464884
+2020-05-22 13:39:03:775 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@2a464884
+2020-05-22 13:39:03:776 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@2a464884
+2020-05-22 13:39:03:778 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@76b5fb7
+2020-05-22 13:39:03:781 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration locale -> org.hibernate.type.LocaleType@31f82dde
+2020-05-22 13:39:03:782 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@31f82dde
+2020-05-22 13:39:03:784 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration currency -> org.hibernate.type.CurrencyType@2175ca5c
+2020-05-22 13:39:03:785 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@2175ca5c
+2020-05-22 13:39:03:787 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration timezone -> org.hibernate.type.TimeZoneType@266aa3f
+2020-05-22 13:39:03:789 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@266aa3f
+2020-05-22 13:39:03:792 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration class -> org.hibernate.type.ClassType@38eaf4e9
+2020-05-22 13:39:03:793 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@38eaf4e9
+2020-05-22 13:39:03:796 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@733a5d5b
+2020-05-22 13:39:03:797 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@733a5d5b
+2020-05-22 13:39:03:801 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@35358b4c
+2020-05-22 13:39:03:803 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@557ebf85
+2020-05-22 13:39:03:805 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration binary -> org.hibernate.type.BinaryType@496e33c
+2020-05-22 13:39:03:814 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration byte[] -> org.hibernate.type.BinaryType@496e33c
+2020-05-22 13:39:03:816 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration [B -> org.hibernate.type.BinaryType@496e33c
+2020-05-22 13:39:03:820 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@5059a89e
+2020-05-22 13:39:03:821 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@5059a89e
+2020-05-22 13:39:03:824 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@5059a89e
+2020-05-22 13:39:03:826 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration image -> org.hibernate.type.ImageType@5cb62aae
+2020-05-22 13:39:03:828 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration characters -> org.hibernate.type.CharArrayType@21051e5a
+2020-05-22 13:39:03:829 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration char[] -> org.hibernate.type.CharArrayType@21051e5a
+2020-05-22 13:39:03:830 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration [C -> org.hibernate.type.CharArrayType@21051e5a
+2020-05-22 13:39:03:831 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@3ee69a20
+2020-05-22 13:39:03:832 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@3ee69a20
+2020-05-22 13:39:03:833 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@3ee69a20
+2020-05-22 13:39:03:834 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration text -> org.hibernate.type.TextType@16bdcbfb
+2020-05-22 13:39:03:837 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration ntext -> org.hibernate.type.NTextType@2cf77dbc
+2020-05-22 13:39:03:842 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration blob -> org.hibernate.type.BlobType@47681fad
+2020-05-22 13:39:03:843 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@47681fad
+2020-05-22 13:39:03:846 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@5eae09e6
+2020-05-22 13:39:03:851 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration clob -> org.hibernate.type.ClobType@304c82b
+2020-05-22 13:39:03:853 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@304c82b
+2020-05-22 13:39:03:857 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration nclob -> org.hibernate.type.NClobType@1eeb2b84
+2020-05-22 13:39:03:858 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1eeb2b84
+2020-05-22 13:39:03:859 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3e6b6c93
+2020-05-22 13:39:03:862 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@2cdeae
+2020-05-22 13:39:03:864 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration serializable -> org.hibernate.type.SerializableType@33d4aee5
+2020-05-22 13:39:03:869 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration object -> org.hibernate.type.ObjectType@cb2c6f6
+2020-05-22 13:39:03:870 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@cb2c6f6
+2020-05-22 13:39:03:872 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@71369532
+2020-05-22 13:39:03:873 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@6b296894
+2020-05-22 13:39:03:874 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@68176ad4
+2020-05-22 13:39:03:874 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@19b0e715
+2020-05-22 13:39:03:875 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@5cea7e14
+2020-05-22 13:39:03:877 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@7c27c0d5
+2020-05-22 13:39:03:878 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2fb5444f
+2020-05-22 13:39:03:879 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@31a396e3
+2020-05-22 13:39:03:899 org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-05-22 13:39:03:908 org.hibernate.Version:54 INFO  - HHH000412: Hibernate Core {4.3.10.Final}
+2020-05-22 13:39:03:911 org.hibernate.cfg.Environment:239 INFO  - HHH000206: hibernate.properties not found
+2020-05-22 13:39:03:913 org.hibernate.cfg.Environment:346 INFO  - HHH000021: Bytecode provider name : javassist
+2020-05-22 13:39:03:932 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2020-05-22 13:39:03:934 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2020-05-22 13:39:03:936 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2020-05-22 13:39:03:937 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2020-05-22 13:39:03:940 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2020-05-22 13:39:03:942 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2020-05-22 13:39:03:944 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2020-05-22 13:39:03:945 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2020-05-22 13:39:03:947 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2020-05-22 13:39:03:950 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2020-05-22 13:39:03:952 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2020-05-22 13:39:03:954 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2020-05-22 13:39:03:956 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2020-05-22 13:39:03:958 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2020-05-22 13:39:03:961 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2020-05-22 13:39:03:965 org.hibernate.cfg.Configuration:2075 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-05-22 13:39:03:966 org.hibernate.cfg.Configuration:2094 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-05-22 13:39:04:030 org.hibernate.internal.util.xml.DTDEntityResolver:69 DEBUG - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+2020-05-22 13:39:04:040 org.hibernate.internal.util.xml.DTDEntityResolver:71 DEBUG - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+2020-05-22 13:39:04:041 org.hibernate.internal.util.xml.DTDEntityResolver:108 DEBUG - Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+2020-05-22 13:39:04:080 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.dialect=org.hibernate.dialect.HSQLDialect
+2020-05-22 13:39:04:080 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.connection.driver_class=org.hsqldb.jdbcDriver
+2020-05-22 13:39:04:081 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.connection.url=jdbc:hsqldb:databaseHSQLDB/BelajarHibernate
+2020-05-22 13:39:04:081 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.hbm2ddl.auto=update
+2020-05-22 13:39:04:081 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.show_sql=true
+2020-05-22 13:39:04:082 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.format_sql=true
+2020-05-22 13:39:04:082 org.hibernate.cfg.Configuration:2276 DEBUG - Session-factory config [null] named class [com.rizki.mufrizal.belajarHibernate.domain.Mahasiswa] for mapping
+2020-05-22 13:42:10:429 org.hibernate.cfg.Configuration:194 DEBUG - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-05-22 13:42:10:447 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration boolean -> org.hibernate.type.BooleanType@228fd46a
+2020-05-22 13:42:10:449 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration boolean -> org.hibernate.type.BooleanType@228fd46a
+2020-05-22 13:42:10:449 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@228fd46a
+2020-05-22 13:42:10:453 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@125955db
+2020-05-22 13:42:10:455 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration true_false -> org.hibernate.type.TrueFalseType@576b0105
+2020-05-22 13:42:10:459 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration yes_no -> org.hibernate.type.YesNoType@457b6828
+2020-05-22 13:42:10:462 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration byte -> org.hibernate.type.ByteType@2b82fb5f
+2020-05-22 13:42:10:462 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration byte -> org.hibernate.type.ByteType@2b82fb5f
+2020-05-22 13:42:10:463 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@2b82fb5f
+2020-05-22 13:42:10:464 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration character -> org.hibernate.type.CharacterType@66eabee3
+2020-05-22 13:42:10:465 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration char -> org.hibernate.type.CharacterType@66eabee3
+2020-05-22 13:42:10:466 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@66eabee3
+2020-05-22 13:42:10:467 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration short -> org.hibernate.type.ShortType@ecf01a7
+2020-05-22 13:42:10:468 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration short -> org.hibernate.type.ShortType@ecf01a7
+2020-05-22 13:42:10:468 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@ecf01a7
+2020-05-22 13:42:10:471 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration integer -> org.hibernate.type.IntegerType@7be75d8
+2020-05-22 13:42:10:471 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration int -> org.hibernate.type.IntegerType@7be75d8
+2020-05-22 13:42:10:472 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7be75d8
+2020-05-22 13:42:10:474 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration long -> org.hibernate.type.LongType@1393f76f
+2020-05-22 13:42:10:474 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration long -> org.hibernate.type.LongType@1393f76f
+2020-05-22 13:42:10:474 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Long -> org.hibernate.type.LongType@1393f76f
+2020-05-22 13:42:10:476 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration float -> org.hibernate.type.FloatType@2c67573e
+2020-05-22 13:42:10:477 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration float -> org.hibernate.type.FloatType@2c67573e
+2020-05-22 13:42:10:477 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2c67573e
+2020-05-22 13:42:10:479 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration double -> org.hibernate.type.DoubleType@124a14e5
+2020-05-22 13:42:10:480 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration double -> org.hibernate.type.DoubleType@124a14e5
+2020-05-22 13:42:10:480 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@124a14e5
+2020-05-22 13:42:10:482 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@d88be0d
+2020-05-22 13:42:10:482 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@d88be0d
+2020-05-22 13:42:10:484 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@78f6c7a6
+2020-05-22 13:42:10:484 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@78f6c7a6
+2020-05-22 13:42:10:497 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration string -> org.hibernate.type.StringType@458100ab
+2020-05-22 13:42:10:497 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.String -> org.hibernate.type.StringType@458100ab
+2020-05-22 13:42:10:498 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@4417b3ea
+2020-05-22 13:42:10:499 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@50306d
+2020-05-22 13:42:10:501 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration url -> org.hibernate.type.UrlType@1516f205
+2020-05-22 13:42:10:501 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.net.URL -> org.hibernate.type.UrlType@1516f205
+2020-05-22 13:42:10:504 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration date -> org.hibernate.type.DateType@5cebfdd7
+2020-05-22 13:42:10:504 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.Date -> org.hibernate.type.DateType@5cebfdd7
+2020-05-22 13:42:10:506 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration time -> org.hibernate.type.TimeType@7a2d4b61
+2020-05-22 13:42:10:506 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7a2d4b61
+2020-05-22 13:42:10:508 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration timestamp -> org.hibernate.type.TimestampType@1b75ff70
+2020-05-22 13:42:10:508 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@1b75ff70
+2020-05-22 13:42:10:508 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@1b75ff70
+2020-05-22 13:42:10:510 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@2811f7e5
+2020-05-22 13:42:10:512 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration calendar -> org.hibernate.type.CalendarType@a11d088
+2020-05-22 13:42:10:513 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@a11d088
+2020-05-22 13:42:10:513 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@a11d088
+2020-05-22 13:42:10:514 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@1df91f55
+2020-05-22 13:42:10:516 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration locale -> org.hibernate.type.LocaleType@4ade0e17
+2020-05-22 13:42:10:517 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@4ade0e17
+2020-05-22 13:42:10:525 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration currency -> org.hibernate.type.CurrencyType@125fc410
+2020-05-22 13:42:10:525 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@125fc410
+2020-05-22 13:42:10:527 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration timezone -> org.hibernate.type.TimeZoneType@47ecfc33
+2020-05-22 13:42:10:527 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@47ecfc33
+2020-05-22 13:42:10:529 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration class -> org.hibernate.type.ClassType@29c1d345
+2020-05-22 13:42:10:529 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@29c1d345
+2020-05-22 13:42:10:531 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@72cbae21
+2020-05-22 13:42:10:531 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@72cbae21
+2020-05-22 13:42:10:532 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@311af8c7
+2020-05-22 13:42:10:533 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@428ffbb7
+2020-05-22 13:42:10:535 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration binary -> org.hibernate.type.BinaryType@674ca9b9
+2020-05-22 13:42:10:539 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration byte[] -> org.hibernate.type.BinaryType@674ca9b9
+2020-05-22 13:42:10:541 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration [B -> org.hibernate.type.BinaryType@674ca9b9
+2020-05-22 13:42:10:543 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@41f46658
+2020-05-22 13:42:10:543 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@41f46658
+2020-05-22 13:42:10:544 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@41f46658
+2020-05-22 13:42:10:545 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration image -> org.hibernate.type.ImageType@17131314
+2020-05-22 13:42:10:546 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration characters -> org.hibernate.type.CharArrayType@2fe0c7ce
+2020-05-22 13:42:10:547 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration char[] -> org.hibernate.type.CharArrayType@2fe0c7ce
+2020-05-22 13:42:10:547 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration [C -> org.hibernate.type.CharArrayType@2fe0c7ce
+2020-05-22 13:42:10:549 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@43160818
+2020-05-22 13:42:10:549 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@43160818
+2020-05-22 13:42:10:550 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@43160818
+2020-05-22 13:42:10:551 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration text -> org.hibernate.type.TextType@4f68a8d9
+2020-05-22 13:42:10:552 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration ntext -> org.hibernate.type.NTextType@17a2e32e
+2020-05-22 13:42:10:557 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration blob -> org.hibernate.type.BlobType@57a5e420
+2020-05-22 13:42:10:557 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@57a5e420
+2020-05-22 13:42:10:558 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3c96c56d
+2020-05-22 13:42:10:562 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration clob -> org.hibernate.type.ClobType@1a935de4
+2020-05-22 13:42:10:563 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1a935de4
+2020-05-22 13:42:10:567 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration nclob -> org.hibernate.type.NClobType@1958caab
+2020-05-22 13:42:10:567 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1958caab
+2020-05-22 13:42:10:568 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@26ca70aa
+2020-05-22 13:42:10:569 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@3fef2474
+2020-05-22 13:42:10:571 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration serializable -> org.hibernate.type.SerializableType@3a6e9cf5
+2020-05-22 13:42:10:575 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration object -> org.hibernate.type.ObjectType@74b59454
+2020-05-22 13:42:10:575 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@74b59454
+2020-05-22 13:42:10:576 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@733390d4
+2020-05-22 13:42:10:577 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@2b7cadd2
+2020-05-22 13:42:10:577 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@36e09049
+2020-05-22 13:42:10:578 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4015d83f
+2020-05-22 13:42:10:578 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2fcf55d9
+2020-05-22 13:42:10:578 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@61937fcf
+2020-05-22 13:42:10:578 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@53c3c96c
+2020-05-22 13:42:10:579 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3df9370b
+2020-05-22 13:42:10:600 org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-05-22 13:42:10:606 org.hibernate.Version:54 INFO  - HHH000412: Hibernate Core {4.3.10.Final}
+2020-05-22 13:42:10:608 org.hibernate.cfg.Environment:239 INFO  - HHH000206: hibernate.properties not found
+2020-05-22 13:42:10:610 org.hibernate.cfg.Environment:346 INFO  - HHH000021: Bytecode provider name : javassist
+2020-05-22 13:42:10:624 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2020-05-22 13:42:10:625 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2020-05-22 13:42:10:626 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2020-05-22 13:42:10:626 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2020-05-22 13:42:10:627 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2020-05-22 13:42:10:628 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2020-05-22 13:42:10:629 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2020-05-22 13:42:10:630 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2020-05-22 13:42:10:631 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2020-05-22 13:42:10:632 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2020-05-22 13:42:10:633 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2020-05-22 13:42:10:634 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2020-05-22 13:42:10:634 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2020-05-22 13:42:10:635 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2020-05-22 13:42:10:636 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2020-05-22 13:42:10:640 org.hibernate.cfg.Configuration:2075 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-05-22 13:42:10:640 org.hibernate.cfg.Configuration:2094 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-05-22 13:42:10:704 org.hibernate.internal.util.xml.DTDEntityResolver:69 DEBUG - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+2020-05-22 13:42:10:704 org.hibernate.internal.util.xml.DTDEntityResolver:71 DEBUG - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+2020-05-22 13:42:10:705 org.hibernate.internal.util.xml.DTDEntityResolver:108 DEBUG - Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+2020-05-22 13:42:10:729 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.dialect=org.hibernate.dialect.HSQLDialect
+2020-05-22 13:42:10:729 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.connection.driver_class=org.hsqldb.jdbcDriver
+2020-05-22 13:42:10:730 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.connection.url=jdbc:hsqldb:databaseHSQLDB/BelajarHibernate
+2020-05-22 13:42:10:731 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.hbm2ddl.auto=update
+2020-05-22 13:42:10:731 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.show_sql=true
+2020-05-22 13:42:10:731 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.format_sql=true
+2020-05-22 13:42:10:731 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.current_session_context_class=thread
+2020-05-22 13:42:10:734 org.hibernate.cfg.Configuration:2276 DEBUG - Session-factory config [null] named class [com.rizki.mufrizal.belajarHibernate.domain.Mahasiswa] for mapping
+2020-05-22 13:47:09:588 org.hibernate.cfg.Configuration:194 DEBUG - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-05-22 13:47:09:612 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration boolean -> org.hibernate.type.BooleanType@1943019
+2020-05-22 13:47:09:620 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration boolean -> org.hibernate.type.BooleanType@1943019
+2020-05-22 13:47:09:622 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1943019
+2020-05-22 13:47:09:624 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@61978faa
+2020-05-22 13:47:09:635 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration true_false -> org.hibernate.type.TrueFalseType@792aeede
+2020-05-22 13:47:09:636 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration yes_no -> org.hibernate.type.YesNoType@3f78f32
+2020-05-22 13:47:09:642 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration byte -> org.hibernate.type.ByteType@51692556
+2020-05-22 13:47:09:644 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration byte -> org.hibernate.type.ByteType@51692556
+2020-05-22 13:47:09:645 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@51692556
+2020-05-22 13:47:09:658 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration character -> org.hibernate.type.CharacterType@2cf66605
+2020-05-22 13:47:09:659 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration char -> org.hibernate.type.CharacterType@2cf66605
+2020-05-22 13:47:09:659 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@2cf66605
+2020-05-22 13:47:09:664 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration short -> org.hibernate.type.ShortType@1ebc7520
+2020-05-22 13:47:09:666 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration short -> org.hibernate.type.ShortType@1ebc7520
+2020-05-22 13:47:09:675 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1ebc7520
+2020-05-22 13:47:09:681 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration integer -> org.hibernate.type.IntegerType@5b8c8e1d
+2020-05-22 13:47:09:682 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration int -> org.hibernate.type.IntegerType@5b8c8e1d
+2020-05-22 13:47:09:685 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@5b8c8e1d
+2020-05-22 13:47:09:687 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration long -> org.hibernate.type.LongType@27dc7295
+2020-05-22 13:47:09:688 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration long -> org.hibernate.type.LongType@27dc7295
+2020-05-22 13:47:09:689 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Long -> org.hibernate.type.LongType@27dc7295
+2020-05-22 13:47:09:691 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration float -> org.hibernate.type.FloatType@476a79e0
+2020-05-22 13:47:09:691 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration float -> org.hibernate.type.FloatType@476a79e0
+2020-05-22 13:47:09:692 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@476a79e0
+2020-05-22 13:47:09:717 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration double -> org.hibernate.type.DoubleType@1a59c738
+2020-05-22 13:47:09:718 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration double -> org.hibernate.type.DoubleType@1a59c738
+2020-05-22 13:47:09:719 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1a59c738
+2020-05-22 13:47:09:721 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@5d1075e1
+2020-05-22 13:47:09:724 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@5d1075e1
+2020-05-22 13:47:09:726 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@77af3414
+2020-05-22 13:47:09:727 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@77af3414
+2020-05-22 13:47:09:734 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration string -> org.hibernate.type.StringType@3696ec9c
+2020-05-22 13:47:09:734 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.String -> org.hibernate.type.StringType@3696ec9c
+2020-05-22 13:47:09:736 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@4c571670
+2020-05-22 13:47:09:737 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@3f3cec5f
+2020-05-22 13:47:09:739 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration url -> org.hibernate.type.UrlType@3ae69443
+2020-05-22 13:47:09:740 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.net.URL -> org.hibernate.type.UrlType@3ae69443
+2020-05-22 13:47:09:743 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration date -> org.hibernate.type.DateType@61e37711
+2020-05-22 13:47:09:743 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.Date -> org.hibernate.type.DateType@61e37711
+2020-05-22 13:47:09:746 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration time -> org.hibernate.type.TimeType@65ecc1c5
+2020-05-22 13:47:09:746 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@65ecc1c5
+2020-05-22 13:47:09:749 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration timestamp -> org.hibernate.type.TimestampType@347e71a3
+2020-05-22 13:47:09:749 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@347e71a3
+2020-05-22 13:47:09:750 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@347e71a3
+2020-05-22 13:47:09:752 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@39bfbb7b
+2020-05-22 13:47:09:769 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration calendar -> org.hibernate.type.CalendarType@54721bb7
+2020-05-22 13:47:09:782 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@54721bb7
+2020-05-22 13:47:09:785 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@54721bb7
+2020-05-22 13:47:09:787 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@58c34ee1
+2020-05-22 13:47:09:795 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration locale -> org.hibernate.type.LocaleType@471bd206
+2020-05-22 13:47:09:796 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@471bd206
+2020-05-22 13:47:09:799 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration currency -> org.hibernate.type.CurrencyType@2caeb91b
+2020-05-22 13:47:09:800 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@2caeb91b
+2020-05-22 13:47:09:801 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration timezone -> org.hibernate.type.TimeZoneType@7c87da53
+2020-05-22 13:47:09:804 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@7c87da53
+2020-05-22 13:47:09:806 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration class -> org.hibernate.type.ClassType@37319db4
+2020-05-22 13:47:09:806 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@37319db4
+2020-05-22 13:47:09:810 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@16f9f769
+2020-05-22 13:47:09:812 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@16f9f769
+2020-05-22 13:47:09:821 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@532460c0
+2020-05-22 13:47:09:823 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@762bcde1
+2020-05-22 13:47:09:826 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration binary -> org.hibernate.type.BinaryType@7293f983
+2020-05-22 13:47:09:828 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration byte[] -> org.hibernate.type.BinaryType@7293f983
+2020-05-22 13:47:09:843 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration [B -> org.hibernate.type.BinaryType@7293f983
+2020-05-22 13:47:09:845 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@7812d9a9
+2020-05-22 13:47:09:846 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@7812d9a9
+2020-05-22 13:47:09:846 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@7812d9a9
+2020-05-22 13:47:09:861 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration image -> org.hibernate.type.ImageType@2d9b08a2
+2020-05-22 13:47:09:863 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration characters -> org.hibernate.type.CharArrayType@20cb11dd
+2020-05-22 13:47:09:864 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration char[] -> org.hibernate.type.CharArrayType@20cb11dd
+2020-05-22 13:47:09:864 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration [C -> org.hibernate.type.CharArrayType@20cb11dd
+2020-05-22 13:47:09:869 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1f3dd5e8
+2020-05-22 13:47:09:870 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1f3dd5e8
+2020-05-22 13:47:09:870 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1f3dd5e8
+2020-05-22 13:47:09:871 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration text -> org.hibernate.type.TextType@5774a4ae
+2020-05-22 13:47:09:872 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration ntext -> org.hibernate.type.NTextType@754743da
+2020-05-22 13:47:09:877 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration blob -> org.hibernate.type.BlobType@4571ca7a
+2020-05-22 13:47:09:877 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@4571ca7a
+2020-05-22 13:47:09:880 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3d19bf83
+2020-05-22 13:47:09:892 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration clob -> org.hibernate.type.ClobType@45a66c48
+2020-05-22 13:47:09:893 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@45a66c48
+2020-05-22 13:47:09:906 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration nclob -> org.hibernate.type.NClobType@60473942
+2020-05-22 13:47:09:907 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@60473942
+2020-05-22 13:47:09:909 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@656be924
+2020-05-22 13:47:09:910 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@63b4d248
+2020-05-22 13:47:09:912 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration serializable -> org.hibernate.type.SerializableType@19d427e4
+2020-05-22 13:47:09:917 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration object -> org.hibernate.type.ObjectType@77648758
+2020-05-22 13:47:09:919 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@77648758
+2020-05-22 13:47:09:922 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@403596b4
+2020-05-22 13:47:09:923 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@133887ad
+2020-05-22 13:47:09:923 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@f781821
+2020-05-22 13:47:09:923 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@d591e7b
+2020-05-22 13:47:09:925 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@6135a952
+2020-05-22 13:47:09:928 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@36e75f36
+2020-05-22 13:47:09:944 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7911f0db
+2020-05-22 13:47:09:944 org.hibernate.type.BasicTypeRegistry:146 DEBUG - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3c7e9344
+2020-05-22 13:47:09:966 org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-05-22 13:47:09:973 org.hibernate.Version:54 INFO  - HHH000412: Hibernate Core {4.3.10.Final}
+2020-05-22 13:47:09:975 org.hibernate.cfg.Environment:239 INFO  - HHH000206: hibernate.properties not found
+2020-05-22 13:47:09:978 org.hibernate.cfg.Environment:346 INFO  - HHH000021: Bytecode provider name : javassist
+2020-05-22 13:47:10:006 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2020-05-22 13:47:10:007 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2020-05-22 13:47:10:015 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2020-05-22 13:47:10:015 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2020-05-22 13:47:10:017 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2020-05-22 13:47:10:018 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2020-05-22 13:47:10:019 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2020-05-22 13:47:10:020 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2020-05-22 13:47:10:021 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2020-05-22 13:47:10:022 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2020-05-22 13:47:10:023 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2020-05-22 13:47:10:024 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2020-05-22 13:47:10:025 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2020-05-22 13:47:10:026 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2020-05-22 13:47:10:027 org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:93 DEBUG - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2020-05-22 13:47:10:032 org.hibernate.cfg.Configuration:2075 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-05-22 13:47:10:033 org.hibernate.cfg.Configuration:2094 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-05-22 13:47:10:110 org.hibernate.internal.util.xml.DTDEntityResolver:69 DEBUG - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+2020-05-22 13:47:10:115 org.hibernate.internal.util.xml.DTDEntityResolver:71 DEBUG - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+2020-05-22 13:47:10:116 org.hibernate.internal.util.xml.DTDEntityResolver:108 DEBUG - Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+2020-05-22 13:47:10:160 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.dialect=org.hibernate.dialect.HSQLDialect
+2020-05-22 13:47:10:161 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.connection.driver_class=org.hsqldb.jdbcDriver
+2020-05-22 13:47:10:161 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.connection.url=jdbc:hsqldb:databaseHSQLDB/BelajarHibernate
+2020-05-22 13:47:10:162 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.hbm2ddl.auto=update
+2020-05-22 13:47:10:162 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.show_sql=true
+2020-05-22 13:47:10:162 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.format_sql=true
+2020-05-22 13:47:10:163 org.hibernate.cfg.Configuration:2037 DEBUG - hibernate.current_session_context_class=thread
+2020-05-22 13:47:10:164 org.hibernate.cfg.Configuration:2276 DEBUG - Session-factory config [null] named class [com.rizki.mufrizal.belajarHibernate.domain.Mahasiswa] for mapping
